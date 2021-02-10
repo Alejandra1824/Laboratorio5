@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initail-scale=1.0"/>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Registro</title>
+    </head>
+    <body>
+        <h1>Formulario para la creación de una cuanta nueva</h1>
+        <form id="myForm">
+            <div>
+                <div>
+                    <label for="nombre">Nombres</label>
+                    <input type="text" placeholder="Introduzca sus nombres" id="nombre" required>
+                </div>
+            </br>
+                <div>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" placeholder="Introduzca sus apellidos" id="apellidos" required>
+                </div>
+            </br>
+                <div>
+                    <label for="edad">Edad</label>
+                    <input type="text" placeholder="Introduzca su edad" id="edad" required>
+                </div>
+            </br>
+                <div>
+                    <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                    <input type="date" placeholder="Introduzca su Fecha de Nacimiento" id="fechaNacimiento" required>
+                </div>
+            </br>
+                <div>
+                    <label>Sexo</label>
+
+                    <input type="radio" id="masculino" name="sexo" value="maculino">
+                    <label for="masculino">Masculino</label>
+
+                    <input type="radio" id="femenino" name="sexo" value="femenino">
+                    <label for="femenino">Femenino</label>
+
+                    <input type="radio" id="otro" name="sexo" value="otro">
+                    <label for="otro">Otro</label>
+                </div>
+            </br>
+            <div>
+                <label for="usu">Usuario</label>
+                <input type="text" placeholder="Nombre de Usuario" id="usuario" required>
+            </div>
+            </br>
+                <div>
+                    <label for="psw">Contraseña</label>
+                    <input type="password" placeholder="Contraseña" id="psw" required>
+                </div>
+                <div>
+                    <input type="checkbox" placeholder="Recordar Contraseña" id="recordar" required>
+                    <label for="record">Recordar Contraseña</label>
+                </div>
+            </br>
+                <div class="container">
+                    <button type="button">Cancelar</button>
+                    <button type="submit">Crear cuenta</button>
+                </div>
+                <div>
+                    <a href="../Laboratorio 1/Index.html">Página Principal</a>
+                </div>
+            </div>
+        </form>
+        <hr>
+        <h1>Formulario para iniciar sesión</h1>
+
+        <script src="archivo1.js"></script>
+    </body>
+    <footer>
+
+    </footer>
+</html>
